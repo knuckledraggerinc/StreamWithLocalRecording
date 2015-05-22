@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" > 
+
+	<LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+	    <fragment android:name="net.majorkernelpanic.spydroid.ui.HandsetFragment"
+	            android:id="@+id/main"
+	            android:layout_weight="2.03"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+            tools:layout="@layout/main" />
+	    <fragment android:name="net.majorkernelpanic.spydroid.ui.PreviewFragment"
+	            android:id="@+id/preview"
+	            android:layout_weight="2"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+            tools:layout="@layout/preview" />
+
+	</LinearLayout>
+
+</RelativeLayout>  <!-- From: file:/Users/alex/Documents/workspace/android/spydroid-ipcamera-master/app/src/main/res/layout/tablet.xml -->
